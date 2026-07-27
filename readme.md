@@ -12,7 +12,7 @@
 
 </div>
 
-# 🔄 Notificação EDA - Serviço de Mensageria Assíncrona
+## 🔄 Notificação EDA - Serviço de Mensageria Assíncrona
 
 Este projeto é uma demonstração prática de uma **Arquitetura Orientada a Eventos (EDA - Event-Driven Architecture)** utilizando **Java 21**, **Spring Boot 3** e **RabbitMQ**.
 
