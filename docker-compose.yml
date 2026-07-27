@@ -1,0 +1,10 @@
+services:
+    rabbitmq:
+      image: rabbitmq:3-management
+      container_name: rabbit-broker
+      ports:
+        - "5672:5672" # Porta de comunicação do Spring AMQP
+        - "15672:15672" # Painel Web
+      environment:
+        RABBITMQ_DEFAULT_USER: guest
+        RABBITMQ_DEFAULT_PASS: guest
